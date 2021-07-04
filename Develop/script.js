@@ -32,6 +32,32 @@ let generatePassword = function(){
 	while (spe != "y" && spe != "n"){
 		spe = window.prompt("Entered invalid input, Use special characters? ('y' or 'n'): ").toLowerCase();
 	}
+  
+  if (low == 'y' || upp == 'y' || num == 'y' || spe == 'y'){
+		if (low == 'y'){
+			passwordCharacters += lowercase;
+		}
+		if (upp == 'y'){
+			passwordCharacters += uppercase;
+		}
+		if (num == 'y'){
+			passwordCharacters += numbers;
+		}
+		if (spe == 'y'){
+			passwordCharacters += symbols;
+		}
+		for(let x = 0; x < len; x++){
+			rand = Math.floor(Math.random() * passwordCharacters.length);
+			password += passwordCharacters.charAt(rand)
+		}
+		return password;
+	}
+	else{
+		alert("Please select atleast one character type. Try Again");
+		generatePassword();
+	}
+
+}
 
 
 // Get references to the #generate element
