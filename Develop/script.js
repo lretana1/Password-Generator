@@ -18,6 +18,20 @@ let generatePassword = function(){
 	while (low != "y" && low != "n"){
 		low = window.prompt("Entered invalid input, Use lowercase? ('y' or 'n'): ").toLowerCase();
 	}
+  let upp = window.prompt("Use uppercase? ('y' or 'n'): ").toLowerCase();
+	while (upp != "y" && upp != "n"){
+		upp = window.prompt("Entered invalid input, Use uppercase? ('y' or 'n'): ").toLowerCase();
+	}
+
+	let num = window.prompt("Use numbers? ('y' or 'n'): ").toLowerCase();
+	while (num != "y" && num != "n"){
+		num = window.prompt("Entered invalid input, Use numbers? ('y' or 'n'): ").toLowerCase();
+	}
+
+	let spe = window.prompt("Use special characters? ('y' or 'n'): ").toLowerCase();
+	while (spe != "y" && spe != "n"){
+		spe = window.prompt("Entered invalid input, Use special characters? ('y' or 'n'): ").toLowerCase();
+	}
 
 
 // Get references to the #generate element
