@@ -14,7 +14,7 @@ Project is created with:
 * HTML
 
 ## Screenshot
-![portfoliopage](../images/pw-gen-proj.png?raw=true )
+![password-gen](../images/pw-gen-proj.png?raw=true )
 
 ## Webpagelink
 https://lretana1.github.io/LuisPortfolioPage/
