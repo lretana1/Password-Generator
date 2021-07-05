@@ -13,7 +13,7 @@ Project is created with:
 * HTML
 
 ## Screenshot
-![projectimg](develop/images/pw-gen-proj.PNG?raw=true "projectimgpng")
+![projectimg](develop/images/pw-gen-proj.png?raw=true "projectimgpng")
 
 ## Webpagelink
 https://lretana1.github.io/password-generator/
